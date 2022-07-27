@@ -11,7 +11,7 @@ class Record_model extends CI_Model
     {
         $this->client = new Client([
             // TODO: Tambahkan Base URL API
-            'base_uri' => "34.171.109.5",
+            'base_uri' => "http://34.171.109.5",
         ]);
     }
 
